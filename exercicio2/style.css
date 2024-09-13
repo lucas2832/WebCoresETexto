@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "CrimsonText BoldItalic";
+    src: url("fontes/CrimsonText-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "CrimsonText Regular";
+    src: url("fontes/CrimsonText-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans ExtraBold";
+    src: url("fontes/OpenSans-ExtraBold.ttf");
+}
+
+body {
+    background-color: #ffffff;
+    color: #231900;
+    padding: 20px;
+    width: 500px;
+}
+
+#secao {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+    color: #231900;
+    margin-bottom: 20px;
+    font-family: 'OpenSans ExtraBold', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #231900;
+    font-family: 'OpenSans ExtraBold', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #231900;
+    font-family: 'CrimsonText Regular', sans-serif;
+}
+
+a {
+    font-style: italic;
+    color: #231900;
+    text-decoration: underline;
+    text-decoration-color: #ffcc00;
+    font-family: 'CrimsonText BoldItalic', sans-serif;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #231900;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'OpenSans ExtraBold', sans-serif;
+}
